@@ -1,0 +1,21 @@
+/******w*************
+
+    Project 3
+    Name:           Arjess
+    Date:			April 22, 2022
+    Description:    Project 3 Index CSS file.
+
+********************/
+@font-face
+{
+    font-family: "cookiemonster";
+    src:    url("../fonts/cookiemonster.ttf") format("truetype");
+}
+
+*
+{
+    font-family: cookiemonster;
+    margin: 0;
+    padding: 0;
+}
+
