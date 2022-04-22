@@ -276,6 +276,12 @@ textarea
     resize: none;
 }
 
+form input:focus, form textarea:focus
+{
+    background-color: #eca8b1;
+    color: #ffffff;
+}
+
 #textAreaLabel
 {
     position: relative;
