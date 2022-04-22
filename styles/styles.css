@@ -3,7 +3,7 @@
     Project 3
     Name:           Arjess
     Date:			April 22, 2022
-    Description:    Project 3 Products CSS file.
+    Description:    Project 3 CSS file.
 
 ********************/
 
@@ -20,15 +20,16 @@
     src:    url("../fonts/veggy.ttf") format("truetype");
 }
 
-
-
+/* Universal Properties */
 *
 {
     margin: 0;
     padding: 0;
 }
 
-/* Whole Body CSS */
+
+
+/* Body CSS */
 body
 {
     font-family: cookiemonster, serif;
@@ -37,6 +38,7 @@ body
     width: 70em;
     margin: auto;
 }
+
 
 
 /* Header Section */
@@ -86,8 +88,125 @@ header h1
 
 
 
-/* Main */
-main
+/* Main Body INDEX */
+#mainIndex
+{
+    font-family: veggy, serif;
+    padding: 10px;
+    background-color: white;
+}
+
+#allBody
+{
+    font-size: 1.5em;
+}
+
+#threecups
+{
+    padding: 10px;
+    width: 500px;
+    display:block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hangingcat
+{
+    width: 200px;
+    position: relative;
+    top: -30px;
+}
+
+#firstParagraph
+{
+    display:flex;
+}
+
+#secondParagraph
+{
+    margin-top: -1em;
+}
+
+#allBody
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Main Body PRODUCT */
+#mainProducts
+{
+    font-family: veggy, serif;
+    padding: 10px;
+    background-color: white;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 20px;
+}
+
+#mainProducts h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.productList
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em 0 2em;
+}
+
+.productOne, .productTwo, .productThree
+{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    width: 15em;
+    text-align: center;
+}
+
+.productOne img, .productTwo img, .productThree img
+{
+    border: 1px solid black;
+    width: 10em;
+}
+
+.catList
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em 0 2em;
+}
+
+.catOne, .catTwo, .catThree
+{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    width: 15em;
+    text-align: center;
+}
+
+.catOne img, .catTwo img, .catThree img
+{
+    border: 1px solid black;
+    width: 10em;
+}
+
+.catList a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: deeppink;
+}
+
+
+
+/* Main Body CONTACTUS */
+#mainContactUs
 {
     font-family: veggy, serif;
     padding: 10px;
@@ -95,12 +214,12 @@ main
     font-size: 1.5em;
 }
 
-main h2
+#mainContactUs h2
 {
     text-align: center;
 }
 
-main p
+#mainContactUs p
 {
     text-align: center;
     margin-bottom: 10px;
@@ -152,17 +271,18 @@ form input
 
 textarea
 {
-    margin-top: 7px;
+    margin-top: 15px;
     width: 50%;
+    resize: none;
 }
 
 #textAreaLabel
 {
     position: relative;
-    top: -30px;
+    top: -55px;
 }
 
-main fieldset button
+#mainContactUs fieldset button
 {
     font-size: 0.75em;
     padding: 5px;

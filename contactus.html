@@ -12,9 +12,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Kawaii Kitty Corner - Contact Us</title>
-    <link rel="stylesheet" type="text/css" href="styles/contactusstyles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <script src="jscripts/formValidate.js"></script>
-    <script src="jscripts/utilityFunctions.js"></script>
 </head>
 <body>
 
@@ -29,13 +28,12 @@
     </nav>
 </header>
 
-<main>
+<main id="mainContactUs">
     <h2>Please Enter your Details</h2>
     <p>(*) is a required field</p>
 
     <form id="contactform"
-          action="index.html"
-          method="post">
+          action="index.html">
         <fieldset>
             <ul>
                 <li>
@@ -58,7 +56,7 @@
                 </li>
                 <li>
                     <label for="textarea" id="textAreaLabel">Comments*</label>
-                    <textarea id="textarea" name="textarea" rows="3"></textarea>
+                    <textarea id="textarea" name="textarea" rows="5"></textarea>
                     <p class="contactError error" id="textarea_error">* Required Field</p>
                 </li>
             </ul>

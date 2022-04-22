@@ -9,6 +9,12 @@
 // Load Event Listener
 document.addEventListener("DOMContentLoaded", load);
 
+// Uses a regex to remove spaces from a string.
+function trim(str)
+{
+    return str.replace(/^\s+|\s+$/g,"");
+}
+
 // Handles the Load Event of the Document
 function load()
 {
