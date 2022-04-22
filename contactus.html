@@ -1,0 +1,85 @@
+<!--
+
+    Project 3
+    Name:           Arjess
+    Date:			April 22, 2022
+    Description:    Project 3 Contact Us HTML file.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kawaii Kitty Corner - Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles/contactusstyles.css">
+    <script src="jscripts/formValidate.js"></script>
+    <script src="jscripts/utilityFunctions.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Kawaii Kitty Corner</h1>
+    <nav id="topnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Please Enter your Details</h2>
+    <p>(*) is a required field</p>
+
+    <form id="contactform"
+          action="index.html"
+          method="post">
+        <fieldset>
+            <ul>
+                <li>
+                    <label for="fullname">Full Name*</label>
+                    <input id="fullname" name="fullname" type="text" />
+                    <p class="contactError error" id="fullname_error">* Required Field</p>
+                    <p class="contactError error" id="fullnameformat_error">* Invalid Name</p>
+                </li>
+                <li>
+                    <label for="phonenumber">Phone Number*</label>
+                    <input id="phonenumber" name="phonenumber" type="text" />
+                    <p class="contactError error" id="phonenumber_error">* Required Field</p>
+                    <p class="contactError error" id="phonenumberformat_error">* Invalid Phone Number</p>
+                </li>
+                <li>
+                    <label for="email">E-mail*</label>
+                    <input id="email" name="email" type="text" />
+                    <p class="contactError error" id="email_error">* Required Field</p>
+                    <p class="contactError error" id="emailformat_error">* Invalid E-mail Address</p>
+                </li>
+                <li>
+                    <label for="textarea" id="textAreaLabel">Comments*</label>
+                    <textarea id="textarea" name="textarea" rows="3"></textarea>
+                    <p class="contactError error" id="textarea_error">* Required Field</p>
+                </li>
+            </ul>
+
+            <p class="buttons">
+                <button type="submit" id="submit">Send</button>
+                <button type="reset" id="clear" onclick="return resetForm()">Reset</button>
+            </p>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <nav id="bottomnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>

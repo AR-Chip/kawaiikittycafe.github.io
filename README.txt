@@ -1,0 +1,1 @@
+This project is for educational purposes, all images and fonts are for personal use and meet the creative commons criteria.

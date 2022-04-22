@@ -1,0 +1,207 @@
+/******w*************
+
+    Project 3
+    Name:           Arjess
+    Date:			April 22, 2022
+    Description:    Project 3 Products CSS file.
+
+********************/
+
+/* Getting Custom Fonts*/
+@font-face
+{
+    font-family: "cookiemonster";
+    src:    url("../fonts/cookiemonster.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "veggy";
+    src:    url("../fonts/veggy.ttf") format("truetype");
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Whole Body CSS */
+body
+{
+    font-family: cookiemonster, serif;
+    background-color: #ffe5ca;
+    border-radius: 10px;
+    width: 70em;
+    margin: auto;
+}
+
+
+/* Header Section */
+header
+{
+    border: 2px solid white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header h1
+{
+    font-size: 4em;
+    color: black;
+    text-shadow: 2px 0 white;
+}
+
+#topnav ul li
+{
+    margin-top: 50%;
+    display: inline;
+    font-family: veggy, serif;
+}
+
+#topnav ul li a
+{
+    color: black;
+    text-shadow: -2px 0 white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#topnav ul li:not(:last-child)
+{
+    padding: 10px;
+}
+
+#topnav ul li:hover, nav ul li:focus
+{
+    text-decoration: underline;
+}
+
+
+
+/* Main */
+main
+{
+    font-family: veggy, serif;
+    padding: 10px;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+main h2
+{
+    text-align: center;
+}
+
+main p
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form
+{
+    text-align: center;
+}
+
+form fieldset ul
+{
+    list-style: none;
+}
+
+fieldset
+{
+    border: none;
+    width: 30em;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+form label
+{
+    display:inline-block;
+    width: 5em;
+    margin-top: 2px;
+    font-size: 1.25em;
+}
+
+form input
+{
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+}
+
+.error
+{
+    color: red;
+    margin-left: 100px;
+}
+
+.buttons
+{
+    margin-top: 10px;
+}
+
+textarea
+{
+    margin-top: 7px;
+    width: 50%;
+}
+
+#textAreaLabel
+{
+    position: relative;
+    top: -30px;
+}
+
+main fieldset button
+{
+    font-size: 0.75em;
+    padding: 5px;
+}
+
+
+
+/* Footer */
+footer
+{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 0 0 10px 10px;
+    background-color: lightpink;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+#bottomnav
+{
+    padding-bottom: 5px;
+}
+
+#bottomnav ul li
+{
+    display: inline;
+    padding: 10px;
+    font-family: veggy, serif;
+}
+
+#bottomnav ul li a
+{
+    color: black;
+    text-shadow: -1px 0 white;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#bottomnav ul li:hover, nav ul li:focus
+{
+    text-decoration: underline;
+}
